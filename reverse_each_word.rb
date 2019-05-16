@@ -7,4 +7,5 @@ def reverse_each_word(string)
     reversed_array << word.reverse
 binding.pry
   end
+  reversed_array.join(" ")
 end
